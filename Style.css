@@ -1,5 +1,6 @@
 
 body {
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     opacity: 1;
   }
   
@@ -16,7 +17,7 @@ hr{
 }
   
   .top{
-    width: 60%;
+    grid-column: 2 / 3;
     margin: auto;
     text-align: center;
     font-size: xx-large !important;
@@ -27,7 +28,19 @@ hr{
   }
   div{
     /* border: 1px solid black; */
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+  }
+  .container {
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr; /* set the column widths to a ratio of 1-2-1 */
+    justify-content: center;
+    align-items: center;
+    grid-gap: 20px; /* add some spacing between the elements */
+  }
+  .pfp {
+    grid-column: 1 / 2;
+    margin-top: 175px;
+    height: 400px; /* Adjust the spacing between the image and the top div as needed */
   }
   
   .boxes {
