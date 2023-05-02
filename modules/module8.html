@@ -35,14 +35,35 @@
         h2{
             text-align: center;
         }
-        img {
+        .img {
             display: block;
             margin: 0 auto;
-            height: 600px;
+            height: 400px;
+            margin-left: 200px;
         }
         p{
             margin-left: 200px;
             margin-right: 200px;
+        }
+        .body{
+            padding: 10px;
+            background-color: #fcbc81;
+            width: 90%;
+            margin: auto;
+            box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+            border-radius: 20px;
+        }
+        .container {
+            display: grid;
+            grid-template-columns: 1fr 2fr 1fr; /* set the column widths to a ratio of 1-2-1 */
+            justify-content: center;
+            align-items: center;
+            grid-gap: 20px; /* add some spacing between the elements */
+        }
+        .top{
+            grid-column: 2 / 3;
+            margin: auto;
+            text-align: center;
         }
     </style>
 </head>
@@ -51,32 +72,62 @@
     <div class="top">
         <h1>Module 8: Business Student of Today</h1>
     </div>
-    <hr>
-    
-    <h2>Mind map</h2>
-    <img src="/afbeeldingen/mindmap.png" alt="mindmap" srcset="">
-    <hr>
-    <h2>The mock exam</h2>
-    <p style="max-width: 60%;">As a preparation for the exam of Logistics & Supply Chain Management on the 13th of January, I made the test exam and self-tests that were available on Canvas. The test included 20 multiple choice-questions and 5 open questions, covering the learning materials for the exam. I decided to make the available self-tests and mock exams for every course because they are a good resemblance of what the exam questions may look like and they help you be prepared even better. <br> <br>
-        It is advisable to thoroughly go through the learning materials before attempting the practice exam. In my case, I went through the material several times and felt confident about having a complete understanding of all the information before taking the exam. I treat the practice exams like real exams, meaning that grades matter. After finishing the exam, I was pleased with my results. However, there were some problems that I encountered. <br> <br>
-        I was caught off guard by the open-ended questions on the Logistics & Supply Chain Management mock exam, as it was my first trial and I was unsure of what to expect. The time limit added to my nervousness and made it challenging to maintain my focus. I was also uncertain about how the computer would evaluate my responses to the open-ended questions since the answers could vary from person to person. After completing the exam, I was able to view the corrections for the multiple-choice questions, but the evaluation of my open-ended responses was not provided. <br> <br> 
-        If I had completed the mock exam a week before the actual exam, I could have solved this problem by asking the professor to review my answers. Alternatively, I could have requested the professor toupload a correction of the practice exam on Canvas for all students to access. I will keep this in mind for the second semester. <br> <br>
-        Either way, taking a mock exam is definitely a good way to better prepare yourself for the actual exam. By completing the exam, you can identify the mistakes you've made, review the correct answers, and determine which learning materials require further revision. Completing a practice exam was also beneficial to me, as some of the questions that appeared on the actual exam were similar to those in the mock exam, albeit with slight differences in wording.
-        </p>
-    <hr>
-    <h2>Reflection on your role as chair during one of the workshops</h2>
-    <p>
-        Together with my Talent & Management Development group, I gave a workshop in which we focused on study methods, planning, summarizing, schematizing tools and ways to improve our memorization skills. Our goal was to create a creative and interactive learning environment, so we organized various activities such as quizzes, games, and interactive exercises.
-        Reflecting on Module 8, "Business Student of Today," I found the information to be valuable and applicable to students worldwide. The module provided new perspectives on studying and planning, and I identified areas for improvement in my own study habits. The strategies and techniques provided in the module can be applied to achieve personal goals or address challenges, so it's important to reflect on how I can integrate what I've learned into my actions and decision-making processes.<br><br>
-        As part of the workshop, we designed activities to bring the information into practice and encourage reflection on our own study habits. While the overall presentation went well, there are still points for improvement that I need to address. Given the diverse audience and the length of the workshop (2 hours and 30 minutes), not everyone was equally engaged throughout the session. To address this, I could have asked more questions and involved students more in the activities to keep them engaged.<br><br>
-        On the other hand I believe that my strengths lie in my fluency in public speaking, as well as my preparedness and knowledge of the topic. I was able to guide groups through the workshop activities, such as the situation game, which required them to plan efficiently and effectively. My social and presenting skills also contributed to the success of the workshop.
-        Moving forward, I plan to further develop my strengths by putting them into practice more often. Additionally, I felt positive during the workshop, and while I was initially nervous, the nerves quickly dissipated once I began speaking. I felt relieved and happy with the positive feedback we received from both the professor and our team regarding our hard work.
-        In terms of my own participation, I felt that I contributed enough during the preparations and the workshop itself. My team divided the tasks equally, and I provided the necessary materials and clear overviews of the information that needed to be discussed during the workshop. We ensured that everyone spoke for an equal amount of time during the presentations, and we were pleased with the enthusiasm and participation from our classmates.<br><br>
-        During the workshop, we organized a statement game that I came up with on my own, and it was a success. The game involved participants standing in a straight line, and the game leader (me) would read a statement, and participants would choose a side of the line depending on whether they agreed or disagreed. After addressing some of the students to explain why they chose to agree or disagree, I shared my own opinion and experience on the statement. This created a stronger sense of involvement and collaboration, which contributed positively to the workshop.<br><br>
-        In conclusion, the workshop on study methods and planning that I gave with my Talent & Management Development group was a valuable experience that allowed us to create a creative and interactive learning environment for our classmates. Reflecting on Module 8, "Business Student of Today," I was able to identify areas for improvement in my own study habits and found the strategies and techniques provided in the module to be applicable to students worldwide.
-        While the overall presentation went well and we received positive feedback, there were still areas for improvement, such as keeping all participants equally engaged throughout the workshop. However, I believe that my strengths in public speaking and preparedness helped to guide the group through the activities effectively.
-        Moving forward, I plan to continue developing my strengths and to implement the strategies and techniques I learned from the module into my own study habits. I also aim to improve my facilitation skills and to keep all participants engaged during workshops.
-    </p>
+
+    <div class="body">
+        <h2>Mind map</h2>
+        <div class="container">
+            <img class="img" src="/afbeeldingen/mindmap.png" alt="mindmap" srcset="">
+            <p class="top" style="">
+
+                During one of my ‘Talent and Management’ classes we saw how a mind map is a good scheming tool to revise your learning material. It provides structure and visualization of the key concepts and sharpens your visual memory. In addition, it helps you memorize, by enabling you to orally produces the information that comes along with the key words you have written down.
+            </p>
+        </div>
+
+        <hr>
+        <div>
+            <h2>mock exam</h2>
+            <img class="img"     src="/afbeeldingen/yenvystudy.png" alt="Image description" style="float: right; max-width: 40%; max-height: 400px; margin-right: 50px;">
+            <p style="max-width: 60%;">As a preparation for the exam of Logistics & Supply Chain Management on the 13th of January, I made the test exam and self-tests that were available on Canvas. The test included 20 multiple choice-questions and 5 open questions, covering the learning materials for the exam. I decided to make the available self-tests and mock exams for every course because they are a good resemblance of what the exam questions may look like and they help you be prepared even better. <br> <br>
+                It is advisable to thoroughly go through the learning materials before attempting the practice exam. In my case, I went through the material several times and felt confident about having a complete understanding of all the information before taking the exam. I treat the practice exams like real exams, meaning that grades matter. After finishing the exam, I was pleased with my results. However, there were some problems that I encountered. <br> <br>
+                I was caught off guard by the open-ended questions on the Logistics & Supply Chain Management mock exam, as it was my first trial and I was unsure of what to expect. The time limit added to my nervousness and made it challenging to maintain my focus. I was also uncertain about how the computer would evaluate my responses to the open-ended questions since the answers could vary from person to person. After completing the exam, I was able to view the corrections for the multiple-choice questions, but the evaluation of my open-ended responses was not provided. <br> <br> 
+                If I had completed the mock exam a week before the actual exam, I could have solved this problem by asking the professor to review my answers. Alternatively, I could have requested the professor toupload a correction of the practice exam on Canvas for all students to access. I will keep this in mind for the second semester. <br> <br>
+                Either way, taking a mock exam is definitely a good way to better prepare yourself for the actual exam. By completing the exam, you can identify the mistakes you've made, review the correct answers, and determine which learning materials require further revision. Completing a practice exam was also beneficial to me, as some of the questions that appeared on the actual exam were similar to those in the mock exam, albeit with slight differences in wording.
+                </p>
+                
+            <hr>
+            <h2>Reflection on your role as chair during one of the workshops</h2>
+            <p>
+                Together with my Talent & Management Development group, I gave a workshop in which we focused on study methods, planning, summarizing, schematizing tools and ways to improve our memorization skills. Our goal was to create a creative and interactive learning environment, so we organized various activities such as quizzes, games, and interactive exercises.
+                Reflecting on Module 8, "Business Student of Today," I found the information to be valuable and applicable to students worldwide. The module provided new perspectives on studying and planning, and I identified areas for improvement in my own study habits. The strategies and techniques provided in the module can be applied to achieve personal goals or address challenges, so it's important to reflect on how I can integrate what I've learned into my actions and decision-making processes.<br><br>
+                As part of the workshop, we designed activities to bring the information into practice and encourage reflection on our own study habits. While the overall presentation went well, there are still points for improvement that I need to address. Given the diverse audience and the length of the workshop (2 hours and 30 minutes), not everyone was equally engaged throughout the session. To address this, I could have asked more questions and involved students more in the activities to keep them engaged.<br><br>
+                On the other hand I believe that my strengths lie in my fluency in public speaking, as well as my preparedness and knowledge of the topic. I was able to guide groups through the workshop activities, such as the situation game, which required them to plan efficiently and effectively. My social and presenting skills also contributed to the success of the workshop.
+                Moving forward, I plan to further develop my strengths by putting them into practice more often. Additionally, I felt positive during the workshop, and while I was initially nervous, the nerves quickly dissipated once I began speaking. I felt relieved and happy with the positive feedback we received from both the professor and our team regarding our hard work.
+                In terms of my own participation, I felt that I contributed enough during the preparations and the workshop itself. My team divided the tasks equally, and I provided the necessary materials and clear overviews of the information that needed to be discussed during the workshop. We ensured that everyone spoke for an equal amount of time during the presentations, and we were pleased with the enthusiasm and participation from our classmates.<br><br>
+                During the workshop, we organized a statement game that I came up with on my own, and it was a success. The game involved participants standing in a straight line, and the game leader (me) would read a statement, and participants would choose a side of the line depending on whether they agreed or disagreed. After addressing some of the students to explain why they chose to agree or disagree, I shared my own opinion and experience on the statement. This created a stronger sense of involvement and collaboration, which contributed positively to the workshop.<br><br>
+                In conclusion, the workshop on study methods and planning that I gave with my Talent & Management Development group was a valuable experience that allowed us to create a creative and interactive learning environment for our classmates. Reflecting on Module 8, "Business Student of Today," I was able to identify areas for improvement in my own study habits and found the strategies and techniques provided in the module to be applicable to students worldwide.
+                While the overall presentation went well and we received positive feedback, there were still areas for improvement, such as keeping all participants equally engaged throughout the workshop. However, I believe that my strengths in public speaking and preparedness helped to guide the group through the activities effectively.
+                Moving forward, I plan to continue developing my strengths and to implement the strategies and techniques I learned from the module into my own study habits. I also aim to improve my facilitation skills and to keep all participants engaged during workshops.
+            </p>
+            
+        </div>
+
+        <div style="display: flex; flex-direction: column; align-items: center; position: relative;">
+            <h2>Exam planning</h2>
+            <div style="display: flex; flex-direction: row; align-items: flex-start;">
+              <div style="flex: 1;">
+                <img src="/afbeeldingen/exam/exam1.png" alt="" srcset="">
+                <br>
+                <img src="/afbeeldingen/exam/exam2.png" alt="" srcset="">
+                <br>
+                <img src="/afbeeldingen/exam/exam3.png" alt="" srcset="">
+              </div>
+              <div style="position: sticky; top: 0; margin-left: 20px;">
+                <img src="/afbeeldingen/exam/legend.png" alt="" srcset="">
+              </div>
+            </div>
+          </div>
+    </div>
+
     <a href="/index.html" class="back-button">back</a>
 </body>
 </html>

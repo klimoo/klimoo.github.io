@@ -14,6 +14,8 @@ hr{
     background-color: rgba(255, 255, 255, 0.572);
     text-align: center;
     padding: 20px;
+    min-width: 1000px;
+    max-width: 1000px;
 }
   
   .top{
@@ -25,10 +27,6 @@ hr{
   .top > div > p {
     margin: auto;
     font-size: large;
-  }
-  div{
-    /* border: 1px solid black; */
-    
   }
   .container {
     display: grid;
