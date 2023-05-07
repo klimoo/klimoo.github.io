@@ -9,6 +9,7 @@
         body{
             background-color: #FFDEEF;
             font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            text-align: center;
         }
         a{
             color: inherit;
@@ -100,16 +101,13 @@
         <h1>Sustainability Project</h1>
     </div>
     <div class="body">
-        <video id="myVideo" width="1200px">
-            <source src="/files/Sustainability.mov" type="video/mp4">
-            Your browser does not support the video tag.
-          </video>
-          <div id="controls">
+        <iframe src="https://drive.google.com/file/d/17XLsPtzo2AzAkwMx_uujlCQCk855Nuwq/preview" width="1300" height="800" allow="autoplay"></iframe>
+          <!-- <div id="controls">
             <p>Currently watching: <span id="videoName">video.mp4</span></p>
             <p>Time: <span id="currentTime">0:00</span>/<span id="duration">0:00</span></p>
             <input type="range" id="seekBar" value="0" min="0">
             <button id="playButton" onclick="playPause()">▶</button>
-          </div>
+          </div> -->
             <div class="pdf-container">
                 <object data="/files/Sustainability_Project.pdf" type="application/pdf"">
                     <p>Oops! Your browser doesn't support PDFs. You can still download the PDF <a href="/files/My_Work_Observation_Report.pdf">here</a>.</p>
@@ -121,7 +119,7 @@
                 <h2>budgent with Ghent as sponsor</h2>
                 <img src="/afbeeldingen/exel2.png" alt="" srcset="">
             </div>
-          <script>
+          <!-- <script>
             var video = document.getElementById("myVideo");
             var videoName = document.getElementById("videoName");
             var currentTime = document.getElementById("currentTime");
@@ -163,7 +161,7 @@
                 video.currentTime = seekBar.value;
                 currentTime.innerHTML = formatTime(video.currentTime);
             });
-          </script>
+          </script> -->
     </div>
 </body>
 </html>
