@@ -7,7 +7,7 @@
     <title>mentroship project</title>
     <style>
         body{
-            background-color: #FFDEEF;
+            background-color: #E2F0D9;
             font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
             text-align: center;
         }
@@ -35,7 +35,7 @@
         }
         .body{
             padding: 30px;
-            background-color: #fdc3e1;
+            background-color: #cfeebb;
             width: 90%;
             margin: auto;
             box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
@@ -92,6 +92,15 @@
         .imgs{
             text-align: center;
         }
+        .image-container {
+            position: relative;
+        }
+
+        .image-container img {
+            position: absolute;
+            top: 0;
+            left: 0;
+        }
     </style>
 </head>
 <body>
@@ -101,7 +110,10 @@
         <h1>Sustainability Project</h1>
     </div>
     <div class="body">
-        <iframe src="https://drive.google.com/file/d/17XLsPtzo2AzAkwMx_uujlCQCk855Nuwq/preview" width="1300" height="800" allow="autoplay"></iframe>
+        <div class="image-container">
+            <img src="/afbeeldingen/blad.png" alt="" srcset="" style="height: 200px;">
+            <iframe src="https://drive.google.com/file/d/17XLsPtzo2AzAkwMx_uujlCQCk855Nuwq/preview" width="1300" height="800" allow="autoplay"></iframe>
+        </div>
           <!-- <div id="controls">
             <p>Currently watching: <span id="videoName">video.mp4</span></p>
             <p>Time: <span id="currentTime">0:00</span>/<span id="duration">0:00</span></p>
@@ -114,9 +126,9 @@
                 </object>
             </div>
             <div class="imgs">
-                <h2>budgent without Ghent as sponsor</h2>
+                <h2>Budget without Ghent as sponsor</h2>
                 <img src="/afbeeldingen/exel1.png" alt="" srcset="">
-                <h2>budgent with Ghent as sponsor</h2>
+                <h2>Budget with Ghent as sponsor</h2>
                 <img src="/afbeeldingen/exel2.png" alt="" srcset="">
             </div>
           <!-- <script>
