@@ -91,6 +91,44 @@
             box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
             border-radius: 20px;
         }
+        .tooltip {
+            position: relative;
+            display: inline-block;
+            border-bottom: 1px dotted black;
+        }
+        
+        .image .tooltiptext {
+            visibility: hidden;
+            width: 120px;
+            background-color: #555;
+            color: #fff;
+            text-align: center;
+            border-radius: 6px;
+            padding: 5px 0;
+            position: absolute;
+            z-index: 1;
+            bottom: 125%;
+            left: 50%;
+            margin-left: -60px;
+            opacity: 0;
+            transition: opacity 0.3s;
+        }
+        
+        .image .tooltiptext::after {
+            content: "";
+            position: absolute;
+            top: 100%;
+            left: 50%;
+            margin-left: -5px;
+            border-width: 5px;
+            border-style: solid;
+            border-color: #555 transparent transparent transparent;
+        }
+        
+        .image:hover .tooltiptext {
+            visibility: visible;
+            opacity: 1;
+        }
     </style>
 </head>
 <body>
@@ -103,6 +141,7 @@
         <div class="image">
             <img style="transform: rotate(20deg); max-height: 60%;"src="/afbeeldingen/butterflyA.png" alt="">
             <img style="transform: rotate(-20deg);"src="/afbeeldingen/butterfly.png" alt="">
+            <span class="tooltiptext">Pintrest.com</span>
         </div>
         <h2>My personal SWOT-analysis</h2>
         <br>
@@ -184,7 +223,11 @@
                 I am highly interested in experiencing the universal aspects of the industry and gaining international exposure, which makes the position of commercial manager at Club Li Blanca an ideal opportunity for me. I am confident that the club's diverse clientele and international connections will offer a unique and exciting professional experience. <br> <br>
                 My strengths in communication, negotiation, and relationship-building will allow me to excel in establishing and maintaining good client relationships. Additionally, I have a natural interest in monitoring the operations of the club, which is a critical aspect of the commercial manager's role. I am confident that my interest in this area, combined with my management skills and interpersonal abilities, would make me an excellent candidate for the position. My education, skills and interests align well with the job requirements.
                 </p>
-            <img src="/afbeeldingen/bee.png" alt="" srcset="" style="width: 200px;">
+                <br><br>
+                <div class="image">
+                    <img src="/afbeeldingen/bee.png" alt="" srcset="" style="width: 200px;">
+                    <span class="tooltiptext">Pintrest.com</span>
+                </div>
             <h2 style="text-align: center;">Linking the job position to the IBM learning outcomes</h2>
             <p>
                 There are 4 learning outcomes of the IBM program that are important for commercial managers. Firstly, customer orientation and relationship management. These are essential for a commercial manager as they directly impact a company's revenue and growth. By prioritizing and understanding customer preferences and effectively managing relationships, a commercial manager can increase customer satisfaction, loyalty, and ultimately generate more revenue.
